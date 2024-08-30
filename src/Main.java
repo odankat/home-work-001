@@ -51,7 +51,7 @@ public class Main {
         var rabotyagi = watch / openingHours;
         System.out.println(" Всего работников в компании - " + rabotyagi + " человек");
         rabotyagi = rabotyagi + 94; // работяги множатся
-        watch = rabotyagi * openingHours; // умножаем
+        watch = rabotyagi * openingHours; // умножаем (и ввносим изменения в текст)
         System.out.println( "Если в компании работает "+rabotyagi+ " человека, то всего  "+ watch+ " часов работы может быть поделено между сотрудниками ");
 
     }
